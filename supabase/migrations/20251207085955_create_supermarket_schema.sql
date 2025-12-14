@@ -6,7 +6,7 @@
       - `id` (uuid, primary key)
       - `phone` (text, unique) - User's phone number
       - `name` (text) - User's full name
-      - `language` (text) - Preferred language (malayalam/english)
+      - `language` (text) - Preferred language (malayalam/english/kannada/urdu)
       - `role` (text) - User role (user/manager)
       - `is_online` (boolean) - Track online status
       - `created_at` (timestamp)
